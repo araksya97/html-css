@@ -557,7 +557,10 @@ footer > .foot {
   padding: 30px;
   line-height: 30px;
 }
-
+footer > .foot > a  {
+  color: #fff;
+  text-decoration: none;
+}
 footer > .foot > i {
   margin: 0 10px;
 }
