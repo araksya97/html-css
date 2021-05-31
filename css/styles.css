@@ -60,7 +60,10 @@ nav > .nav > .nav_menu > li > a {
   font-weight: 600;
   letter-spacing: 1.5px;
 }
-
+nav > .nav > .nav_menu > li:hover > a {
+  border-bottom: 2px solid #000;
+  transition: all 0.3s ease;
+}
 .mobile_btn > i {
   display: none;
   font-size: 24px;
@@ -557,7 +560,7 @@ footer > .foot {
   padding: 30px;
   line-height: 30px;
 }
-footer > .foot > a  {
+footer > .foot > a {
   color: #fff;
   text-decoration: none;
 }
